@@ -1,0 +1,12 @@
+## Interface: 30300
+## Title: Companion Voice
+## Notes: Speaks party, whisper, say and yell aloud (players and NPCs), in a voice that fits each speaker's race. Needs the LivingVoices64 plugin for CoA64.
+## Author: Crono141 (CoA64 fork: aspollon)
+## Version: 0.1.0-coa1
+## SavedVariables: CompanionVoiceDB
+Voices.lua
+RaceVoices.lua
+AFKDefaults.lua
+Pronounce.lua
+CompanionVoice.lua
+Options.lua

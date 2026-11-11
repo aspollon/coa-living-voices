@@ -1,0 +1,12 @@
+Companion Voice uses these works. Thank you to their authors.
+
+Pocket TTS, by Kyutai (https://github.com/kyutai-labs/pocket-tts). Model weights: Creative Commons Attribution 4.0
+  International (CC BY 4.0), https://creativecommons.org/licenses/by/4.0/. Kyutai's use policy forbids cloning a real
+  person's voice without consent; every voice in this mod is designed, not cloned from anyone.
+Pocket TTS ONNX export, by KevinAHM (https://huggingface.co/KevinAHM/pocket-tts-onnx): models CC BY 4.0 (inherited),
+  code Apache 2.0. Packaged by the sherpa-onnx project (sherpa-onnx-pocket-tts-int8-2026-01-26 and
+  sherpa-onnx-pocket-tts-2026-01-26). The voice encoder is Companion Voice's own export of the same Kyutai weights.
+sherpa-onnx, by k2-fsa (https://github.com/k2-fsa/sherpa-onnx): Apache License 2.0.
+ONNX Runtime, by Microsoft (https://github.com/microsoft/onnxruntime): MIT License.
+miniaudio, by David Reid (https://miniaud.io): public domain (Unlicense) or MIT No Attribution.
+The voices were designed with Qwen3-TTS VoiceDesign (Apache License 2.0) and IndexTTS-2.
