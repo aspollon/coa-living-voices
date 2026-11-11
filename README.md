@@ -19,8 +19,10 @@ Voices add-on runs as released.
 
 ## The CoA64.exe
 
-`exe/` holds a CoA64.exe built with the plugin loader (see `exe/README.md`), shipped with ilusixn's permission. The
-release ZIP carries it in `CoA64\`; AFK Realm puts it in place when the game folder's exe cannot load plugins.
+The voices need a CoA64.exe with the plugin loader (two small commits, `docs/2026-11-11-client-plugins.md` in
+CoA64). The CoA64.exe of CoA Custom 1.9.9 does not have it yet, and an exe built from the public source lacks the
+Esteria race textures of 1.9.9 (Titan, Lich, Mogu ...), so none is shipped here until the official build carries
+the loader.
 
 ## Install
 
