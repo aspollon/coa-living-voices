@@ -17,6 +17,11 @@ Voices add-on runs as released.
   - CoA Custom races get a fitting stock voice (`RaceVoices.lua`; own choices win);
   - AFK Realm writes `AFKDefaults.lua` from its Voices page; a new stamp applies those settings once.
 
+## The CoA64.exe
+
+`exe/` holds a CoA64.exe built with the plugin loader (see `exe/README.md`), shipped with ilusixn's permission. The
+release ZIP carries it in `CoA64\`; AFK Realm puts it in place when the game folder's exe cannot load plugins.
+
 ## Install
 
 Through AFK Realm (client → Voices). By hand, into the CoA64 folder:
