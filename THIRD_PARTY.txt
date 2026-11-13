@@ -12,5 +12,6 @@ miniaudio, by David Reid (https://miniaud.io): public domain (Unlicense) or MIT 
 The voices were designed with Qwen3-TTS VoiceDesign (Apache License 2.0) and IndexTTS-2.
 
 Lumenveil, by the Lumenveil project (https://github.com/lumenveil/Lumenveil): GNU General Public License v2.0. The
-CoA64 release ZIP carries the x64 engine build as CoA64/Lumenveil64.dll; the source is at that repository. It is a
-separate DLL loaded at runtime, not linked into the AFK client.
+CoA64 release ZIP carries a modified x64 build as CoA64/Lumenveil64.dll. Its complete source, with the changes, is
+https://github.com/aspollon/Lumenveil, branch port/x64, at the tag named here: afk64-x64-2026-11-13. It is a separate DLL
+loaded at runtime, not linked into the AFK client.
