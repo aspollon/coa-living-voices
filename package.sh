@@ -9,7 +9,7 @@ plugin/build.sh
 rm -rf dist/stage && mkdir -p dist/stage/Plugins dist/stage/Interface/AddOns
 cp plugin/build/LivingVoices64.dll dist/stage/Plugins/
 cp -r addons/CompanionVoice dist/stage/Interface/AddOns/
-mkdir -p dist/stage/CoA64 && cp exe/CoA64.exe exe/XvidDecoder.dll exe/COA-CUSTOM-VERSION.txt dist/stage/CoA64/
+mkdir -p dist/stage/CoA64 && cp exe/CoA64.exe exe/XvidDecoder.dll exe/Lumenveil64.dll exe/Visuals.txt exe/COA-CUSTOM-VERSION.txt dist/stage/CoA64/
 cp LICENSE README.md dist/stage/
 (cd dist/stage && rm -f "../CoA64-Voices-$v.zip" && zip -qr "../CoA64-Voices-$v.zip" .)
 ls -la "dist/CoA64-Voices-$v.zip"

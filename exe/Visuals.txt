@@ -1,0 +1,3 @@
+; 0 = default graphics, 1 = Lumenveil, 2 = LuxVelum
+1
+

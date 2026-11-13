@@ -10,3 +10,7 @@ sherpa-onnx, by k2-fsa (https://github.com/k2-fsa/sherpa-onnx): Apache License 2
 ONNX Runtime, by Microsoft (https://github.com/microsoft/onnxruntime): MIT License.
 miniaudio, by David Reid (https://miniaud.io): public domain (Unlicense) or MIT No Attribution.
 The voices were designed with Qwen3-TTS VoiceDesign (Apache License 2.0) and IndexTTS-2.
+
+Lumenveil, by the Lumenveil project (https://github.com/lumenveil/Lumenveil): GNU General Public License v2.0. The
+CoA64 release ZIP carries the x64 engine build as CoA64/Lumenveil64.dll; the source is at that repository. It is a
+separate DLL loaded at runtime, not linked into the AFK client.
