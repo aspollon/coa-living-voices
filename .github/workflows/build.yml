@@ -12,7 +12,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Tools
-        run: sudo apt-get update && sudo apt-get install -y g++-mingw-w64-x86-64-posix cmake zip lua5.1
+        run: sudo apt-get update && sudo apt-get install -y g++-mingw-w64-x86-64-posix cmake zip unzip lua5.1
       - name: Lua parses
         run: for f in addons/CompanionVoice/*.lua; do luac5.1 -p "$f"; done
       - name: Build and package

@@ -1,13 +1,15 @@
-# AFK64.exe with the plugin loader and Lumenveil
+# AFK64.exe with the plugin loader, Lumenveil and Forever
 
 Built from the AFK CoA64 branch for CoA Custom 2.0 (`COA-CUSTOM-VERSION.txt`), shipped with ilusixn's permission.
-The release ZIP carries `CoA64/CoA64.exe`, `CoA64/Lumenveil64.dll` and `CoA64/Visuals.txt`; AFK Realm installs the exe as
-`AFK64.exe` and puts the other two beside it.
+The release ZIP carries `CoA64/CoA64.exe`, `CoA64/Lumenveil64.dll`, `CoA64/Visuals.txt` and `CoA64/VulkanShaders/`;
+AFK Realm installs the exe as `AFK64.exe` and puts the others beside it. `VulkanShaders.zip` holds the Vulkan shaders
+for Forever, translated from a CoA Custom 2.0 client (`Tools/VulkanShaders/translate_shaders.py` in CoA64); they replace
+the package's own VulkanShaders, which come from another client.
 
 `Visuals.txt`:
 
 ```
-; 0 = default graphics, 1 = Lumenveil, 2 = LuxVelum
+; 0 = default graphics, 1 = Lumenveil, 2 = LuxVelum, 3 = Forever (Vulkan)
 1
 ```
 
