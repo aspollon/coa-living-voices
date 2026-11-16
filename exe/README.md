@@ -1,15 +1,18 @@
-# AFK64.exe with the plugin loader, Lumenveil and Forever
+# AFK64.exe with the plugin loader, Lumenveil and Azeroth Remastered
 
 Built from the AFK CoA64 branch for CoA Custom 2.0 (`COA-CUSTOM-VERSION.txt`), shipped with ilusixn's permission.
 The release ZIP carries `CoA64/CoA64.exe`, `CoA64/Lumenveil64.dll`, `CoA64/Visuals.txt` and `CoA64/VulkanShaders/`;
 AFK Realm installs the exe as `AFK64.exe` and puts the others beside it. `VulkanShaders.zip` holds the Vulkan shaders
-for Forever, translated from a CoA Custom 2.0 client (`Tools/VulkanShaders/translate_shaders.py` in CoA64); they replace
+for Azeroth Remastered, translated from a CoA Custom 2.0 client (`Tools/VulkanShaders/translate_shaders.py` in CoA64); they replace
 the package's own VulkanShaders, which come from another client.
+`GraphicsData.zip` holds `forever_data/` (Azeroth Remastered's light, fog, water and grading tables) and
+`DBFilesClient/*.cdbc` (Living Azeroth's wind, climate, grass and snow tables), both from Esteria's client; the release
+carries them in `CoA64/` and AFK Realm puts them in the game folder beside the exe.
 
 `Visuals.txt`:
 
 ```
-; 0 = default graphics, 1 = Lumenveil, 2 = LuxVelum, 3 = Forever (Vulkan)
+; 0 = default graphics, 1 = Lumenveil, 2 = LuxVelum, 3 = Azeroth Remastered (Vulkan)
 1
 ```
 

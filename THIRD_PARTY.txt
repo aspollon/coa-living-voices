@@ -15,3 +15,9 @@ Lumenveil, by the Lumenveil project (https://github.com/lumenveil/Lumenveil): GN
 CoA64 release ZIP carries a modified x64 build as CoA64/Lumenveil64.dll. Its complete source, with the changes, is
 https://github.com/aspollon/Lumenveil, branch port/x64, at the tag named here: afk64-x64-2026-11-13. It is a separate DLL
 loaded at runtime, not linked into the AFK client.
+
+Living Azeroth in AFK64.exe (tree and bush wind, world wind, grass density, snow cover) is ported from Esteria's client
+(STRHercules/wowdecomp, branch Esteria), which builds on wxl-treewind, wxl-grasswind and seyris-living-azeroth: GNU
+General Public License v3.0. Azeroth Remastered's water, light, fog and colour grading come from the same project's HD
+port (GPL-3.0). CoA64/forever_data and CoA64/DBFilesClient/*.cdbc are Esteria's data tables, shipped with Zach
+(STRHercules)'s permission.
