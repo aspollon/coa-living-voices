@@ -19,7 +19,7 @@ Voices add-on runs as released.
 
 ## The CoA64.exe
 
-`exe/` holds an AFK64.exe built for CoA Custom 2.0 with the plugin loader (see `exe/README.md`), shipped with
+`exe/` holds an AFK64.exe built for CoA Custom 2.0.2 with the plugin loader (see `exe/README.md`), shipped with
 ilusixn's permission. The release ZIP carries it in `CoA64\` together with `Lumenveil64.dll`, `Visuals.txt` and
 `VulkanShaders\`; AFK Realm puts them in place when the game folder's exe cannot load plugins. `Visuals.txt` selects
 Lumenveil (1) as the standard; 0 is the plain game, 2 is LuxVelum and 3 is Azeroth Remastered (which runs on
