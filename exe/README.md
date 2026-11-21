@@ -3,7 +3,7 @@
 Built from the AFK CoA64 branch for CoA Custom 2.0.2 (`COA-CUSTOM-VERSION.txt`), shipped with ilusixn's permission.
 The release ZIP carries `CoA64/CoA64.exe`, `CoA64/Lumenveil64.dll`, `CoA64/Visuals.txt` and `CoA64/VulkanShaders/`;
 AFK Realm installs the exe as `AFK64.exe` and puts the others beside it. `VulkanShaders.zip` holds the Vulkan shaders
-for Azeroth Remastered, translated from a CoA Custom 2.0 client (a 2.0.2 translation is a subset of it: the same records, so it serves 2.0.2 and a client without CoA Custom alike) (`Tools/VulkanShaders/translate_shaders.py` in CoA64); they replace
+for Azeroth Remastered, translated from a CoA Custom 2.0 client (a 2.0.2 translation is a subset of it: the same records, so it serves 2.0.2 and a client without CoA Custom alike) plus the 166 vertex shaders of fueryin's Ultra-HD pack (`--merge-into`) (`Tools/VulkanShaders/translate_shaders.py` in CoA64); they replace
 the package's own VulkanShaders, which come from another client.
 `GraphicsData.zip` holds `forever_data/` (Azeroth Remastered's light, fog, water and grading tables) and
 `DBFilesClient/*.cdbc` (Living Azeroth's wind, climate, grass and snow tables), both from Esteria's client; the release
